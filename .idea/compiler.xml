@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="druid-example" />
+        <module name="haoxi-assembly" />
+        <module name="haoxi-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="druid-example" target="1.8" />
+      <module name="haoxi-assembly" target="1.8" />
+      <module name="haoxi-druid" target="1.8" />
       <module name="haoxi-integration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="druid-example" options="-parameters" />
+      <module name="haoxi-druid" options="" />
     </option>
   </component>
 </project>
