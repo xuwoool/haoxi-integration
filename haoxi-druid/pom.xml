@@ -113,7 +113,7 @@
                     <archive>
                         <manifest>
                             <!-- 项目启动类 -->
-                            <mainClass>com.haoxi.example.HaoxiApplication</mainClass>
+                            <mainClass>com.haoxi.HaoxiDruidApplication</mainClass>
                             <!-- 依赖的jar的目录前缀 -->
                             <classpathPrefix>../lib</classpathPrefix>
                             <addClasspath>true</addClasspath>

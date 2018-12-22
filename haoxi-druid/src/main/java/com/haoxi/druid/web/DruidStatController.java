@@ -1,4 +1,4 @@
-package com.haoxi.example.druid.web;
+package com.haoxi.druid.web;
 
 import com.alibaba.druid.stat.DruidStatManagerFacade;
 import org.springframework.web.bind.annotation.GetMapping;
